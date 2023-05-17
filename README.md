@@ -6,24 +6,24 @@ Este proyecto es una aplicación de comercio electrónico construida utilizando 
 
 # 🧩Componentes
 
-`Cart`: muestra y gestiona el carrito de compras del usuario
-`Filters`: permite al usuario filtrar los productos por categoría y precio mínimo
-`Header`: componente de encabezado que incluye el logotipo, el ícono del carrito y el botón de cambio de tema
-`Icons`: contiene los íconos utilizados en la aplicación
-`ProductList`: muestra la lista de productos disponibles
-`Toggle`: componente para cambiar el tema de la aplicación
+- `Cart`: muestra y gestiona el carrito de compras del usuario
+- `Filters`: permite al usuario filtrar los productos por categoría y precio mínimo
+- `Header`: componente de encabezado que incluye el logotipo, el ícono del carrito y el botón de cambio de tema
+- `Icons`: contiene los íconos utilizados en la aplicación
+- `ProductList`: muestra la lista de productos disponibles
+- `Toggle`: componente para cambiar el tema de la aplicación
 
 <br/>
 
 # 🌐 Contextos
 
-`cartContext`
+- `cartContext`
 Este contexto proporciona un estado global para el carrito de compras del usuario. Los componentes pueden utilizar este contexto para agregar o eliminar productos del carrito.
 
-`filtersContext`
+- `filtersContext`
 Este contexto proporciona un estado global para los filtros de productos. Los componentes pueden utilizar este contexto para aplicar o eliminar filtros.
 
-`themeContext`
+- `themeContext`
 Este contexto proporciona un estado global para el tema de la aplicación. Los componentes pueden utilizar este contexto para cambiar entre temas.
 
 # 💫Getting Started
