@@ -1,38 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 App Shop
 
-## Getting Started
+Este proyecto es una aplicación de comercio electrónico construida utilizando React, Next.js y Typescript. La aplicación cuenta con una serie de componentes, contextos y hooks diseñados para gestionar el carrito de compras, filtrar productos y cambiar el tema de la aplicación.
 
-First, run the development server:
+<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# 🧩Componentes
+
+`Cart`: muestra y gestiona el carrito de compras del usuario
+`Filters`: permite al usuario filtrar los productos por categoría y precio mínimo
+`Header`: componente de encabezado que incluye el logotipo, el ícono del carrito y el botón de cambio de tema
+`Icons`: contiene los íconos utilizados en la aplicación
+`ProductList`: muestra la lista de productos disponibles
+`Toggle`: componente para cambiar el tema de la aplicación
+
+<br/>
+
+# 🌐 Contextos
+
+`cartContext`
+Este contexto proporciona un estado global para el carrito de compras del usuario. Los componentes pueden utilizar este contexto para agregar o eliminar productos del carrito.
+
+`filtersContext`
+Este contexto proporciona un estado global para los filtros de productos. Los componentes pueden utilizar este contexto para aplicar o eliminar filtros.
+
+`themeContext`
+Este contexto proporciona un estado global para el tema de la aplicación. Los componentes pueden utilizar este contexto para cambiar entre temas.
+
+# 💫Getting Started
+
+**Clone the repo**
+
+```sh
+git clone https://github.com/CristinaFores/cart
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Install NPM packages**
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**Run the project**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```sh
+npm start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Then, open [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+# 🎨Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<div align="center" >
+<img  src="./public/assets/mobile-canva.png" alt="App Image" > 
+  &nbsp  &nbsp &nbsp  &nbsp
+</div>
+<br/>
+<div align="center" >
+<img  src="./public/assets/pc-canva.png" alt="App Image" > 
+  &nbsp  &nbsp &nbsp  &nbsp
+</div>
 
-## Deploy on Vercel
+# 💻 Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js](https://nextjs.org/)
+- [React.js](https://nextjs.org/)
+- [TypeScript](typescriptlang.org)
